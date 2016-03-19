@@ -24,3 +24,8 @@ User.prototype.uppercut = function uppercut(targetPlayer) {
 Isaac.uppercut(Wesley)
 console.log('Isaac:' + Isaac.life)
 console.log('Wesley' + Wesley.life)
+
+User.prototype.magic = 60
+
+console.log(Isaac.magic)
+console.log(Wesley.magic)
