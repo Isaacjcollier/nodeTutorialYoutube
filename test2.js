@@ -29,3 +29,5 @@ User.prototype.magic = 60
 
 console.log(Isaac.magic)
 console.log(Wesley.magic)
+
+module.exports = Isaac
